@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "lint:ts": "tslint --project . -t verbose 'src/**/*.ts' --fix",
+    "demo": "ts-node src/solo_local.ts"
+  },
+  "dependencies": {
+    "@dydxprotocol/solo": "^0.40.1"
+  }
+}
